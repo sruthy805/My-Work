@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .admin-profile {
+        list-style: none;
+      }
+
+      .admin-profile .pro-title {
+        font-weight: 600;
+        color: #040404;
+        position: relative;
+        width: 120px;
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      .admin-profile .pro-title:after {
+        position: absolute;
+        content: ":";
+        color: #040404;
+        font-size: 18px;
+        left: 100px;
+      }
+
+      .counter-section{
+        background-image: url(./sit1.jpg);
+        
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        
+       
+        
+      }
+      .section-padding{
+        padding: 80px;
+      }
+    </style>
+  </head>
+  <body>
+       
+
+         <!-- navbar -->
+
+    <section  id="home">
+      <nav class="navbar  fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./logo.png" width="200"  height="70"></a>
+          <button class="navbar-toggler " type="button"   data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link"  href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- carousel -->
+
+
+      
+    
+    
+   
+
+  <!-- carousel -->
+
+
+    
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+            <img  src="./pic6.jpg" height="600px" width="100%" alt="....">
+            <div class="carousel-caption">
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7">
+                <h2 class="script-font"  style="font-family: 'Shadows Into Light', cursive; font-size: 30px;">Hi This is</h2>
+                <h3 class="head-title " style= "font-family: 'Source Sans Pro', sans-serif; font-size: 50px;"><b>Tom Saulnier</b></h3>
+                <p class="script-font " style="font-family: 'Shadows Into Light', cursive;  font-size: 20px;">Front-end Web Developer and Graphic Designer</p>
+                <div class="d-flex  justify-content-center">
+                    <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="" class="btn py-sm-3 px-sm-5 mt-5" style="background-color:#23a3c3;">Get a Free Quote</a>
+              
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+             
+         <div class="carousel-item ">
+          <img  src="./pic4.jpg" height="600px" width="100%" alt="....">
+          <div class="carousel-caption">
+              <div class="container text-center">
+                  <div class="row justify-content-center">
+                      <div class="col-lg-7">
+              <h2 class="script-font"  style="font-family: 'Shadows Into Light', cursive; font-size: 30px;">Hi This is</h2>
+              <h3 class="head-title " style= "font-family: 'Source Sans Pro', sans-serif; font-size: 50px;"><b>Tom Saulnier</b></h3>
+              <p class="script-font " style="font-family: 'Shadows Into Light', cursive;  font-size: 20px;">Front-end Web Developer and Graphic Designer</p>
+              <div class="d-flex  justify-content-center">
+                  <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-instagram"></i></a>
+              </div>
+              <a href="" class="btn py-sm-3 px-sm-5 mt-5" style="background-color:#23a3c3;">Get a Free Quote</a>
+            
+       </div>
+       </div>
+       </div>
+       </div>
+       </div>
+
+
+         </div>
+         </div>
+
+
+      
+      </div>
+
+
+      <!-- paragraph -->
+
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <img  class="img-fluid"  src="./boy.jpg" ; position:relative ;style="width: 90% ;margin-left: 20%;" />
+          </div>
+          <br>
+
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <p style="font-size: 30px"><b>Hi Guys!</b></p>
+        <p>
+          Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et rutrum
+          eleifend sollicitudin lacinia justo id turpis. Nec convallis
+          integer. Odio eget duis. Nulla aenean et. Blandit varius
+          sollicitudin. Pellentesque leo primis neque urna magnis. Elit ut
+          sollicitudin. Et est a nam dolores eget itaque sagittis et
+          parturient duis est eleifend sociis rutrum odio viverra integer.
+        </p>
+
+        <ul class="admin-profile">
+          <li><span class="pro-title">Name</span><span class="pro-detail">Tom Saulnier</span></li>
+          <li><span class="pro-title">Age</span><span class="pro-detail">25 years</span></li>
+          <li><span class="pro-title">Experience</span><span class="pro-detail">4 years</span></li>
+          <li><span class="pro-title">Country</span><span class="pro-detail">USA</span></li>
+          <li><span class="pro-title">Location</span><span class="pro-detail">San Francisco</span></li>
+          <li><span class="pro-title">e-mail</span><span class="pro-detail">Tom@gmail.com</span></li>
+          <li><span class="pro-title">Phone</span><span class="pro-detail">+(00) 123 456 789</span></li>
+          <li><span class="pro-title">Freelance</span><span class="pro-detail">Available</span></li>
+        </ul>
+
+        <a href="#" class="btn btn-primary">
+          <i class="fa-solid fa-paperclip fa-1x text-center text-info mt-1 "></i>
+          DOWNLOAD RESUME
+        </a> 
+
+        <a href="#" class="btn btn-danger">
+          <i class="fa-duotone fa-phone fa-1x text-center text-info mt-1"></i>CONTACT ME
+        </a>
+
+        
+      </div>
+    </div>
+  </div>
+
+      <!-- cards -->
+
+
+      
+
+  <div class="cards mt-5 bg-light">
+        <center><h2>What I do</h2></center><br>
+
+    <div class="container">
+
+
+      <div class="row">
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card">
+            <i class="fas fa-th icon fa-3x text-center text-info mt-1"></i>
+            <div class="card-body">
+              <h5 class="card-title">FRONT-END DEVELOPMENT</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card">
+            <i class="fa-solid fa-layer-group fa-3x text-center text-info mt-1"></i>
+            <div class="card-body">
+              <h5 class="card-title">GRAPHIC DESIGN</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card">
+            <i class="fa-solid fa-briefcase fa-3x text-center text-info mt-1"></i>
+            <div class="card-body">
+              <h5 class="card-title">BUSINESS BRANDING</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card">
+            <i class="fa-regular fa-comments fa-3x text-center text-info mt-1"></i>
+            <div class="card-body">
+              <h5 class="card-title">CONSULTANCY</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+
+
+
+      <!-- education -->
+
+      
+      <div class="container ">
+        <div class="row">
+          <div class="col-sm-6 ">
+
+            <h2 style="font-weight: 400;font-family: Source Sans Pro, sans-serif;margin-left: 25px;font-size:
+             20px;color: #343a40;">
+             <i class="fa-solid fa-graduation-cap fa-2x text-center text-info mt-5"></i>
+              EDUCATION</h2><br><br>
+
+              <div style="background-color: #f2f2f2; padding: 10px; margin-right: 90px;">
+                <h3 style="font-size: 16px;"><b>Bsc In CSE - Yale University</b></h3>
+                <p>2012-2016</p>
+                <p style="font-weight: 400">Expenses as material breeding insisted building to in. Continual so distrusts 
+                  pronounce by unwilling listening. Thing do taste on we manor.</p>
+              </div>
+
+              <div class="mt-3">
+                <div style="background-color: #f2f2f2; padding: 10px; margin-right: 90px;">
+                  <h3  style="font-size: 16px;"><b>Higher Secondary School - San Francisco College</b></h3>
+                  <p>2010-2012</p>
+                  <p>Expenses as material breeding insisted building to in. Continual so distrusts 
+                    pronounce by unwilling listening. Thing do taste on we manor.</p>
+                </div>
+              </div>
+
+              <div class=" mt-3">
+                <div style="background-color: #f2f2f2; padding: 10px; margin-right: 90px;">
+                  <h3  style="font-size: 16px;"><b>Secondary School - Labratory High School</b></h3>
+                  <p>2005-2010</p>
+                  <p>Expenses as material breeding insisted building to in. Continual so distrusts 
+                    pronounce by unwilling listening. Thing do taste on we manor.</p>
+                </div>
+              </div>
+          </div>
+              
+                <div class="col-sm-6 ">
+                 <h2 style="font-weight: 400;font-family: Source Sans Pro, sans-serif;margin-left: 25px;font-size:
+                  20px;color: #343a40;">
+                  <i class="fa-solid fa-graduation-cap fa-2x text-center text-info mt-5"></i>
+                   EXPERIENCE</h2><br><br>
+
+                   
+                   <div style="background-color: #f2f2f2; padding: 10px; margin-right: 90px;">
+                    <h3 style="font-size: 16px;"><b>Art Director - Tesla Inc.</b></h3>
+                    <p>Jan 2018-Present</p>
+                    <p style="font-weight: 400">Expenses as material breeding insisted building to in. Continual so distrusts 
+                      pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                  
+                  <div class="mt-3">
+                  <div style="background-color: #f2f2f2; padding: 10px; margin-right: 90px;">
+                    <h3 style="font-size: 16px;"><b>UX/UI Designer - Samsung</b></h3>
+                    <p>Nov 2016-Dec2017</p>
+                    <p style="font-weight: 400">Expenses as material breeding insisted building to in. Continual so distrusts 
+                      pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                  </div>
+
+                  <div class="mt-3">
+                  <div style="background-color: #f2f2f2; padding: 10px; margin-right: 90px;">
+                    <h3 style="font-size: 16px;"><b>Intern UI Designer - UIdeck</b></h3>
+                    <p>Mar 2015-Oct2016</p>
+                    <p style="font-weight: 400">Expenses as material breeding insisted building to in. Continual so distrusts 
+                      pronounce by unwilling listening. Thing do taste on we manor.</p>
+                </div>
+         </div>
+      </div>
+         </div>
+         </div>         
+
+
+                  <!-- marks -->
+                  <div class="marks bg-light mt-5">
+                    <div class="container mt-5 ">
+                      <center><h2>My Remarkable Works</h2></center>
+                      <div class="row mt-3">
+
+                        <div class="col-md-12">
+                          <div class="bbtt ">
+                          <center><button class="btn btn-outline-primary me-1" type="submit">All</button>
+                            <input class="btn btn-primary me-1" type="button" value="DESIGN">
+                            <input class="btn btn-primary me-1" type="submit" value="DEVELOPMENT">
+                            <input class="btn btn-primary me-1" type="reset" value="PRINT"></center>
+                          </div>
+                          </div>
+                      </div>
+                          <div class="row mt-5 ">
+
+                            <div class="col-sm-4 col-md-4 col-lg-2 col-xl-4 mt-3">
+                              <img src="./img-1.jpg" style="width: 100%; height: 100%;">
+                            </div>
+
+                            <div class="col-sm-4 col-md-4 col-lg-2 col-xl-4 mt-3">
+                              <img src="./pic9.jpg " style="width: 100%; height: 100%;">
+                            </div>
+
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">   
+                              <img src="./pic5.jpg" style="width: 100%; height: 100%;">
+                            </div>
+
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">    
+                              <img src="./pic1.jpg" style="width: 100%; height: 100%;">
+                            </div>
+
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">                              
+                              <img src="./pic3.jpg" style="width: 100%; height: 100%;">
+                            </div>
+
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 mt-3">
+                              <img src="./pic2.jpg" style="width: 100%; height: 100%;">
+                            </div>
+
+
+                          </div>
+
+                      
+                    </div>
+                  </div>    
+                  
+                      
+        
+
+                        <!-- icons -->
+
+
+                     
+
+                      <section class="counter-section section-padding mt-5">
+                        <div class="container">
+                          <div class="row">
+
+                            <div class="col-md-3 col-sm-6">
+                              <center><i class="fa-solid fa-briefcase fa-2x text-center text-info mt-0"></i>
+                              <h2 class="text-white"><b>250</b></h2>
+                              <h5 class="text-white">PROJECT WARNING</h5></center>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                              <center><i class="fa-regular fa-circle-check fa-2x text-center text-info mt-1"></i>
+                              <h2 class="text-white"><b>950</b></h2>
+                              <h5 class="text-white">PROJECT DONE</h5></center>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                              <center><i class="fa-regular fa-gem fa-2x text-center text-info mt-1"></i>
+                              <h2 class="text-white"><b>150</b></h2>
+                              <h5 class="text-white">AWARDS</h5></center>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                              <center><i class="fa-regular fa-heart fa-2x text-center text-info mt-1"></i>
+                              <h2 class="text-white"><b>299</b></h2>
+                              <h5 class="text-white">HAPPY CLIENTS</h5></center>
+                            </div>
+
+
+
+                          </div>
+                        </div>
+
+                      </section>
+
+                      <!-- contact -->
+
+                      <div class="lastbx">
+                        <div class="container mt-5">
+                          <div class="row">
+                            <div class="col-6">
+                              <h4>CONTACT FORM</h4>
+                            
+                  
+                  
+                  
+                      <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-5">
+                          <label for="validationCustom01" class="form-label">Name</label>
+                          <input type="text" class="form-control mb-2" id="validationCustom01"  required>
+                          <div class="invalid-feedback">
+                            Please enter your name
+                          </div>
+                        </div>
+                        <div class="col-md-5">
+                          <label for="validationCustom02" class="form-label">email</label>
+                          <input type="text" class="form-control" id="validationCustom02" required>
+                          <div class="invalid-feedback">
+                            Please enter your email
+                          </div>
+                        </div>
+                        
+                        <div class="col-md-10">
+                          <label for="validationCustom03" class="form-label">Subject</label>
+                          <input type="text" class="form-control" id="validationCustom03" required>
+                          <div class="invalid-feedback">
+                            Please enter your subject
+                          </div>
+                        </div>
+                        
+                  
+                  
+                        <div class="col-md-10 ">
+                          <label for="valid" class="form-label">Message</label>
+                          <textarea name="" id="" cols="30" rows="5" class="form-control" id="valid" required></textarea>
+                          <div class="valid-feedback">
+                            
+                          </div>
+                        </div>
+                  
+                        
+                  
+                        
+                        <div class="col-10">
+                          <button class="btn btn-primary" type="submit">SEND MESSAGE</button>
+                        </div>
+                      </form>
+                  
+                    </div>
+                    <div class="col-6">
+                      <h4>CONTACT ADDRESS</h4><br>
+                  
+                  
+                      <div class="card">
+                        <div class="card-body">
+                          <i class="fa-solid fa-location-dot fa-2x text-center text-info mt-1">
+                            
+                          </i>
+                          <span class="paragraph">San Francisco, CA</span>
+                        </div>
+                        <div class="card-body">
+                          <i class="fa-regular fa-envelope fa-2x text-center text-info mt-1">
+                            
+                          </i>
+                          <span class="paragraph">hello@tom.com</span>
+                          
+                          
+                          
+                        </div>
+                  
+                  
+                        <div class="card-body">
+                          <i class="fa-solid fa-phone fa-2x text-center text-info mt-1">
+                            
+                          </i>
+                          <span class="paragraph">+(00) 123 4456 345</span>
+                          
+                          
+                          
+                        </div>
+                      </div>
+                  
+                    </div><br><br>
+
+                    
+
+                    <iframe width="100% mt-5"
+        height="450" 
+        frameborder="0" 
+        style="border:0 " 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31450.593762605183!2d-122.40891560105136!3d37.78781509136123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580f8948ac2277%3A0x5e96833a38e4cc90!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1645951132439" width="600" height="450" frameborder="0"
+         style="border:0;" allowfullscreen="" loading="lazy mt-5">
+
+      
+      </iframe>
+
+
+
+</div>
+</div>
+                  </div><br>
+
+                  
+
+                  <div class="foot">
+                  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top bg-dark mt-5">
+                    <div class="col mb-5">
+                      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                      </a>
+                     
+                    </div>
+                  
+                    <div class="col mb-3">
+                  
+                    </div>
+                  
+                    
+                    <div class="col mb-3">
+                      
+                                  <div class="d-flex ">
+                                      <center><a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter"></i></a>
+                                      <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                      <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-youtube"></i></a>
+                                      <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                      <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-instagram"></i></a>
+                                       </center>
+                                      
+                                  </div><br>
+                                  <p class="text-light" >Copyright©2018 Rights Reserved</p>
+                              </div>
+                  
+                  </footer>
+                  </div>
+                  
+                  
+
+
+
+<script>
+  (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+  </body>
+</html>
